@@ -1,0 +1,22 @@
+<div class='weather'>
+  <h2 class='city'>
+    Weather in {{name}}
+  </h2>
+  <h1 class='temp'>
+    {{main.temp}}°C
+  </h1>
+  <div class='flex'>
+    {{#each weather}}
+      <img src="https://openweathermap.org/img/wn/{{this.icon}}.png" alt="{{this.description}}" class='icon' />
+      <div class='description'>
+        {{this.description}}
+      </div>
+    {{/each}}
+  </div>
+  <div class='humidity'>
+    Humidity: {{main.humidity}}%
+  </div>
+  <div class='wind'>
+    Wind speed: {{wind.speed}}km/h
+  </div>
+</div>
