@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eche-unicorn/module-13-2-weather.git"
+    "url": "git+https://github.com/AnastasiiaDaieva/module-13-2-weather.git"
   },
   "keywords": [],
   "author": "Anastasiia Daieva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eche-unicorn/module-13-2-weather/issues"
+    "url": "https://github.com/AnastasiiaDaieva/module-13-2-weather/issues"
   },
-  "homepage": "https://eche-unicorn.github.io/module-13-2-weather",
+  "homepage": "https://AnastasiiaDaieva.github.io/module-13-2-weather",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
